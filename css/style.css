@@ -7,6 +7,7 @@ body {
   color: rgba(79, 86, 101, 1);
   font-family: "Rubik", Arial, Helvetica, sans-serif;
   padding-top: 45px;
+  background: #F8F8F8;
 }
 
 a {
@@ -21,9 +22,9 @@ section {
   min-height: 250px;
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
   background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
-}
+} */
 
 .nav a {
   font-family: Rubik;
@@ -48,7 +49,16 @@ section:nth-child(even) {
   padding-bottom: 20px;
 }
 
-.saiba-mais {
+#box-saiba-mais h2 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#box-saiba-mais ul {
+  margin-left: 30px;
+}
+
+.saiba-mais, .contato {
   width: 250px;
   height: 60px;
   margin-top: 35px;
@@ -73,6 +83,7 @@ section:nth-child(even) {
 }
 
 #box-recursos {
+  background: #fff;
   height: 691px;
   display: flex;
   flex-direction: column;
@@ -93,4 +104,82 @@ section:nth-child(even) {
   text-decoration: none;
   list-style-image: url('../image/li.svg');
   margin: 5px 0;
+}
+
+#box-saiba-mais {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+#box-tecnologias {
+  height: 826px;
+  padding-top: 65px;
+  text-align: center;
+  background: #fff;
+}
+
+#box-tecnologias ul li {
+  float: left;
+  list-style: none;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#box-contato {
+  position: relative;
+  top: -99px;
+  min-height: 190px
+}
+
+#box-contato .container {
+  background: #fff;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(95,95,95,0.8); 
+  box-shadow: 0px 0px 2px 0px rgba(95,95,95,0.8);
+}
+
+#box-contato a {
+  float: right;
+}
+
+#box-contato a:hover {
+  color: #fff;
+}
+
+#box-contato .d-texto {
+  padding-top: 9px;
+}
+
+#box-contato .contato{
+  margin-top: 17px;
+}
+
+footer ul {
+  width: 223px !important;
+  margin: 0 auto;
+  list-style: none;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+footer ul li {
+  float: left;
+  padding: 0 5px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer .corp {
+  font-size: 12px !important;
+
+}
+
+footer .develop {
+  font-size: 10px;
+
 }
