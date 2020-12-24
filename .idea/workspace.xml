@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95df1e24-24ec-4a76-a042-d66cf29d46ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Rubik.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/Rubik-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/Rubik-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rubik/static/Rubik-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -68,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608838874365</updated>
       <workItem from="1608838875788" duration="1156000" />
-      <workItem from="1608840417060" duration="4185000" />
+      <workItem from="1608840417060" duration="10752000" />
     </task>
     <servers />
   </component>
