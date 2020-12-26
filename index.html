@@ -36,191 +36,194 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://jesusvieira.dev/image/profile-jesus-vieira.png" />
     <link rel="stylesheet" href="css/style.css?v=5">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R35FTGGK21"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-R35FTGGK21');
-    </script>
+<!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R35FTGGK21"></script>-->
+<!--    <script>-->
+<!--      window.dataLayer = window.dataLayer || [];-->
+<!--      function gtag(){dataLayer.push(arguments);}-->
+<!--      gtag('js', new Date());-->
+<!--      gtag('config', 'G-R35FTGGK21');-->
+<!--    </script>-->
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a aria-current="page" href="#box-home">Home</a></li>
-          <li><a class="nav-link active" aria-current="page" href="#box-recursos">Recursos</a></li>
-          <li><a href="#box-saiba-mais">Saiba mais</a></li>
-          <li><a href="#box-tecnologias">Tecnologia</a></li>
-          <li><a href="#box-contato">Contato</a></li>
+        <ul class="topnav">
+          <li><a class="page" href="#box-home">Home</a></li>
+          <li><a class="page" href="#box-recursos">Recursos</a></li>
+          <li><a class="page" href="#box-saiba-mais">Saiba mais</a></li>
+          <li><a class="page" href="#box-tecnologias">Tecnologia</a></li>
+          <li><a class="page" href="#box-contato">Contato</a></li>
+          <li class="icon"><!--Inclui o ícone do responsivo na lista-->
+            <a href="javascript:void(0);" onclick="showMenu()">&#9776;
+            </a><!--Chama a função javascript no evento click do icon-->
+          </li>
         </ul>
       </nav>
     </header>
 
-    <section id="home">
+    <section id="box-home">
       <div class="container">
-        <div>
           <h1>Olá seja bem vindo ao meu portfólio</h1>
           <p>Sou Jesus Vieira apaixonado por tecnologia e desenvolvedor back-end especialista na linguagem de programação PHP.</p>
+          <a class="btn" href="https://forms.gle/7PDdgAb5Cbqcxw6N8" title="Entrar em contato">Entrar em contato</a>
 
-          <a class="btn" href="#box-saiba-mais" title="Saiba mais">Saiba mais</a>
-        </div>
-
-        <img width="544" height="365" src="image/profile-jesus-vieira.png" alt="Jesus Vieira imagem topo">
+        <figure>
+          <img width="612" height="412" src="image/profile-jesus-vieira.png" alt="Jesus Vieira imagem topo">
+        </figure>
       </div>
     </section>
 
     <section id="box-recursos">
       <div class="container">
+        <figure>
           <img width="510" height="376" src="image/recursos.png" alt="Veja alguns recursos que posso oferecer">
-          <div>
-            <h2>Veja alguns recursos que posso oferecer</h2>
-            <p>Estarei listando algumas abilidades que considero relevantes</p>
-            <ul>
-              <li>Laravel.</li>
-              <li>Symfony Framework.</li>
-              <li>Zend Franework 2/3 e Laminas.</li>
-              <li>Amazon Web Services.</li>
-            </ul>
-          </div>
-        </div>
+        </figure>
+
+        <h2>Veja alguns recursos que posso oferecer</h2>
+        <p>Estarei listando algumas abilidades que considero relevantes</p>
+
+        <ul>
+          <li>Laravel.</li>
+          <li>Symfony Framework.</li>
+          <li>Zend Franework 2/3 e Laminas.</li>
+          <li>Amazon Web Services.</li>
+        </ul>
+      </div>
     </section>
 
     <section id="box-saiba-mais">
       <div class="container">
-        <div>
-          <h2>Gostaria de saber mais</h2>
+        <h2>Gostaria de saber mais</h2>
 
-          <p>Tenho mais de 10 anos de experiência com a linguagem de programação PHP, e está sendo incrível ver o quanto esta linguagem evoluiu.</p>
-          <p>Trabalho muito com alguns frameworks mais populares do atualizada para PHP como: Laravel,  Symfony,  Zend Framework 2,3 e agora  Laminas Framework.</p>
-          <p>Participei de grandes projetos que me orgulho muito, para que não fique muito extenso irei comentar alguns dos projetos:</p>
+        <p>Tenho mais de 10 anos de experiência com a linguagem de programação PHP, e está sendo incrível ver o quanto esta linguagem evoluiu.</p>
+        <p>Trabalho muito com alguns frameworks mais populares do atualizada para PHP como: Laravel,  Symfony,  Zend Framework 2,3 e agora  Laminas Framework.</p>
+        <p>Participei de grandes projetos que me orgulho muito, para que não fique muito extenso irei comentar alguns dos projetos:</p>
 
-          <ul>
-            <li>Nota fiscal eletrônica;</li>
-            <li>Plataforma EAD;</li>
-            <li>CRM para imobiliária;</li>
-            <li>Integração com RD Station;</li>
-            <li>Integração com sistema de chat boot;</li>
-            <li>E muito mais...</li>
-          </ul>
+        <ul>
+          <li>Nota fiscal eletrônica;</li>
+          <li>Plataforma EAD;</li>
+          <li>CRM para imobiliária;</li>
+          <li>Integração com RD Station;</li>
+          <li>Integração com sistema de chat boot;</li>
+          <li>E muito mais...</li>
+        </ul>
 
-          <p>Meu diferencial é a  facilidade de aprender rápido, e quando estou com dificuldade não meço esforços para pedir ajuda, gosto de trabalhar em equipe e sempre estou à disposição para ajudar outras pessoas..</p>
-        </div>
+        <p>Meu diferencial é a  facilidade de aprender rápido, e quando estou com dificuldade não meço esforços para pedir ajuda, gosto de trabalhar em equipe e sempre estou à disposição para ajudar outras pessoas..</p>
       </div>
     </section>
 
     <section id="box-tecnologias">
       <div class="container">
-        <div>
-          <h2>Algumas tecnologias que posso trabalhar</h2>
-          <p>Sempre estou em busca de novas tecnologias e fico constantemente estudando para ampliar os meus conhecimentos.</p>
-          <ul>
-            <li>
-              <a target="_blank" href="https://aws.amazon.com/" title="Amazon Web Service">
-                <img width="127" height="76" src="image/aws.png" alt="AWS (Amazon Web Service)">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Docker: Empowering App Development for Developers" href="https://www.docker.com/">
-                <img width="127" height="76" src="image/docker.png" alt="Docker: Empowering App Development for Developers">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="GitHub: Where the world builds software" href="https://github.com/">
-                <img width="127" height="76" src="image/github.png" alt="GitHub: Where the world builds software">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="GitLab: DevOps Platform Delivered as a Single Application" href="https://about.gitlab.com/">
-                <img width="127" height="76" src="image/gitlab.png" alt="GitLab: DevOps Platform Delivered as a Single Application">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="javascript Linguagem de programação" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
-                <img width="127" height="76" src="image/javascript.png" alt="javascript Linguagem de programação">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Symfony, High Performance PHP Framework for Web" href="https://symfony.com/">
-                <img width="127" height="76" src="image/symfony.png" alt="Symfony, High Performance PHP Framework for Web">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="MongoDB: The most popular database for modern apps" href="https://www.mongodb.com/">
-                <img width="127" height="76" src="image/mongodb.png" alt="MongoDB: The most popular database for modern apps">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="MySQL Database Service is a fully managed database service to deploy cloud-native applications" href="https://www.mysql.com/">
-                <img width="127" height="76" src="image/mysql.png" alt="MySQL Database Service is a fully managed database service to deploy cloud-native applications">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine." href="https://nodejs.org/en/">
-                <img width="127" height="76" src="image/nodejs.png" alt="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor ) é uma linguagem de script open source de uso geral" href="https://www.php.net/">
-                <img width="127" height="76" src="image/php.jpg" alt="PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor ) é uma linguagem de script open source de uso geral">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Zend Technologies é uma empresa norte-americana fabricante de software, localizada em Cupertino, California, Estados Unidos" href="https://framework.zend.com/">
-                <img width="127" height="76" src="image/zend-framework.png" alt="Zend Technologies é uma empresa norte-americana fabricante de software, localizada em Cupertino, California, Estados Unidos">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="jQuery: The Write Less, Do More, JavaScript Library." href="https://jquery.com/">
-                <img width="127" height="76" src="image/jquery.png" alt="jQuery: The Write Less, Do More, JavaScript Library.">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Laravel - The PHP Framework For Web Artisans" href="https://laravel.com/">
-                <img width="127" height="76" src="image/laravel.png" alt="Laravel - The PHP Framework For Web Artisans">
-              </a>
-            </li>
-            <li>
-              <a target="_blank" title="Laminas Project, the enterprise-ready PHP Framework and components" href="https://getlaminas.org/">
-                <img width="127" height="76" src="image/laminas-framework.png" alt="Laminas Project, the enterprise-ready PHP Framework and components">
-              </a>
-            </li>
-          </ul>
-        </div>
+        <h2>Algumas tecnologias que posso trabalhar</h2>
+        <p>Sempre estou em busca de novas tecnologias e fico constantemente estudando para ampliar os meus conhecimentos.</p>
+        <ul>
+          <li>
+            <a target="_blank" href="https://aws.amazon.com/" title="Amazon Web Service">
+              <img width="127" height="76" src="image/aws.png" alt="AWS (Amazon Web Service)">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Docker: Empowering App Development for Developers" href="https://www.docker.com/">
+              <img width="127" height="76" src="image/docker.png" alt="Docker: Empowering App Development for Developers">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="GitHub: Where the world builds software" href="https://github.com/">
+              <img width="127" height="76" src="image/github.png" alt="GitHub: Where the world builds software">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="GitLab: DevOps Platform Delivered as a Single Application" href="https://about.gitlab.com/">
+              <img width="127" height="76" src="image/gitlab.png" alt="GitLab: DevOps Platform Delivered as a Single Application">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="javascript Linguagem de programação" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+              <img width="127" height="76" src="image/javascript.png" alt="javascript Linguagem de programação">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Symfony, High Performance PHP Framework for Web" href="https://symfony.com/">
+              <img width="127" height="76" src="image/symfony.png" alt="Symfony, High Performance PHP Framework for Web">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="MongoDB: The most popular database for modern apps" href="https://www.mongodb.com/">
+              <img width="127" height="76" src="image/mongodb.png" alt="MongoDB: The most popular database for modern apps">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="MySQL Database Service is a fully managed database service to deploy cloud-native applications" href="https://www.mysql.com/">
+              <img width="127" height="76" src="image/mysql.png" alt="MySQL Database Service is a fully managed database service to deploy cloud-native applications">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine." href="https://nodejs.org/en/">
+              <img width="127" height="76" src="image/nodejs.png" alt="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor ) é uma linguagem de script open source de uso geral" href="https://www.php.net/">
+              <img width="127" height="76" src="image/php.jpg" alt="PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor ) é uma linguagem de script open source de uso geral">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Zend Technologies é uma empresa norte-americana fabricante de software, localizada em Cupertino, California, Estados Unidos" href="https://framework.zend.com/">
+              <img width="127" height="76" src="image/zend-framework.png" alt="Zend Technologies é uma empresa norte-americana fabricante de software, localizada em Cupertino, California, Estados Unidos">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="jQuery: The Write Less, Do More, JavaScript Library." href="https://jquery.com/">
+              <img width="127" height="76" src="image/jquery.png" alt="jQuery: The Write Less, Do More, JavaScript Library.">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Laravel - The PHP Framework For Web Artisans" href="https://laravel.com/">
+              <img width="127" height="76" src="image/laravel.png" alt="Laravel - The PHP Framework For Web Artisans">
+            </a>
+          </li>
+          <li>
+            <a target="_blank" title="Laminas Project, the enterprise-ready PHP Framework and components" href="https://getlaminas.org/">
+              <img width="127" height="76" src="image/laminas-framework.png" alt="Laminas Project, the enterprise-ready PHP Framework and components">
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <section id="box-contato">
-        <div class="container">
-          <div class="contato">
-            <div>
-              <h3>Entre em contato</h3>
-              <p>Vamos bater um papo! O que você acha?</p>
-            </div>
-            <a class="btn" href="https://forms.gle/7PDdgAb5Cbqcxw6N8" title="Entrar em contato">Entrar em contato</a>
-          </div>
+    <footer id="box-contato">
+      <div class="container">
+        <div class="contato">
+          <h3>Entre em contato</h3>
+          <p>Vamos bater um papo! O que você acha?</p>
+          <a class="btn" href="https://forms.gle/7PDdgAb5Cbqcxw6N8" title="Entrar em contato">Entrar em contato</a>
         </div>
-    </section>
 
-    <footer>
-      <div>
         <ul>
-          <li>
-            <a target="_blank" href="https://github.com/juizmill/">GitHub</a>
-          </li>
+          <li><a target="_blank" href="https://github.com/juizmill/">| GitHub |</a></li>
 
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/jesusvieiradelima/">Linkedin</a>
-          </li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/jesusvieiradelima/"> Linkedin </a></li>
 
-          <li>
-            <a target="_blank" href="https://twitter.com/juizmill">Twitter</a>
-          </li>
+          <li><a target="_blank" href="https://twitter.com/juizmill">| Twitter |</a></li>
         </ul>
 
         <p class="corp">©2020 jesusvieira.dev - todos os direitos reservados.</p>
         <p class="develop">Template desenvolvido por <a target="_blank" href="https://dribbble.com/didikurniawan">Didi Kurniawan</a></p>
       </div>
     </footer>
+
+    <script>
+      function showMenu() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+        document.querySelector('nav').style.padding = "0";
+      }
+
+      let pages = document.querySelectorAll('.page');
+      pages.forEach(function (value, number) {
+        pages[number].addEventListener('click', function () {
+            document.querySelector('.topnav').classList.toggle("responsive");
+        }, false);
+      });
+    </script>
   </body>
 </html>
