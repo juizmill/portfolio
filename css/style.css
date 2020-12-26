@@ -150,6 +150,10 @@ ul.topnav li.icon {
 }
 
 @media all and (max-width:680px) {
+  #box-home figure, #box-recursos figure {
+    display: none;
+  }
+
   ul.topnav {
     background: #3d002f;
   }
@@ -231,6 +235,10 @@ ul.topnav li.icon {
 @media (min-width: 576px) {
   h1, h2, h3, footer .contato p {
     text-align: center;
+  }
+
+  #box-home figure, #box-recursos figure {
+    display: none;
   }
 }
 
