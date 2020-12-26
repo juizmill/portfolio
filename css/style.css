@@ -4,61 +4,73 @@
 }
 
 body {
-  color: rgba(79, 86, 101, 1);
+  color: #4F5665;
   font-family: "Rubik", Arial, Helvetica, sans-serif;
-  padding-top: 45px;
-  background: #F8F8F8;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+h2, h3 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 a {
-  color: rgba(79, 86, 101, 1);
-}
-
-a {
+  color: #4F5665;
   text-decoration: none;
 }
 
-section {
-  min-height: 250px;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* section:nth-child(even) {
-  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
-} */
+header {
+  width: 100%;
+}
 
-.nav a {
-  font-family: Rubik;
+header nav {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 2em 0 0 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li a {
+  position: relative;
+  display: inline-block;
+  padding: 1em;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
 }
 
-.p-top {
-  padding-top: 71.91px;
+header nav ul li a:hover {
+  color: #461d65;
 }
 
-.p-top .start {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.p-top .start h1 {
-  font-size: 3.4rem;
-  padding-bottom: 20px;
-}
-
-#box-saiba-mais h2 {
-  text-align: center;
-  margin-bottom: 35px;
-}
-
-#box-saiba-mais ul {
-  margin-left: 30px;
-}
-
-.saiba-mais, .contato {
+.btn {
   width: 250px;
   height: 60px;
   margin-top: 35px;
@@ -73,113 +85,229 @@ section {
   color: rgba(255, 255, 255, 1);
 }
 
-.saiba-mais:hover {
-  color: rgba(255, 255, 255, 1);
-  background: #dd2424;
+section {
+  width: 100%;
+  height: 100vh;
 }
 
-#box-home {
-  height: 691px;
+#home, #box-saiba-mais, #box-contato {
+  background: #ffffff;
 }
 
-#box-recursos {
-  background: #fff;
-  height: 691px;
+#box-recursos, #box-tecnologias, #box-contato, footer {
+  background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center
 }
 
-#box-recursos h2 {
-  font-size: 2.5rem;
-  line-height: 50px;
-  margin-bottom: 35px;
+#box-recursos .container {
+  justify-content: space-between;
 }
 
-#box-recursos ul {
-  margin-top: 35px;
+#box-recursos .container div {
+  padding-left: 100px;
 }
 
-#box-recursos li {
-  text-decoration: none;
-  list-style-image: url('../image/li.svg');
-  margin: 5px 0;
+#box-recursos .container ul li {
+  background: url('../image/li.svg') no-repeat left top;
+  padding: 3px 3px 3px 30px;
+  list-style: none;
+  margin: 0;
 }
 
-#box-saiba-mais {
-  padding-top: 65px;
-  padding-bottom: 65px;
+#box-saiba-mais h2, #box-tecnologias h2, #box-tecnologias p {
+  text-align: center;
+}
+
+#box-saiba-mais ul {
+  list-style: disc;
+  padding-left: 10px;
+}
+
+#box-saiba-mais ul li {
+  padding: 2px 0;
 }
 
 #box-tecnologias {
-  height: 826px;
-  padding-top: 65px;
-  text-align: center;
-  background: #fff;
+  height: 130vh;
 }
 
+#box-tecnologias ul {
+  margin-top: 45px;
+}
 #box-tecnologias ul li {
+  width: 127px;
+  height: 76px;
   float: left;
-  list-style: none;
-  display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  margin: 25px;
 }
 
 #box-contato {
-  position: relative;
-  top: -99px;
-  min-height: 190px
+  height: 100%;
 }
 
 #box-contato .container {
-  background: #fff;
-  border-radius: 5px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  -webkit-box-shadow: 0px 0px 2px 0px rgba(95,95,95,0.8); 
-  box-shadow: 0px 0px 2px 0px rgba(95,95,95,0.8);
+  position: relative;
+  height: 0;
 }
 
-#box-contato a {
-  float: right;
-}
-
-#box-contato a:hover {
-  color: #fff;
-}
-
-#box-contato .d-texto {
-  padding-top: 9px;
-}
-
-#box-contato .contato{
-  margin-top: 17px;
-}
-
-footer ul {
-  width: 223px !important;
+#box-contato .container .contato {
+  width: 1050px;
+  height: 233px;
+  padding-left: 45px;
+  padding-right: 45px;
+  position: absolute;
+  top: -8rem;
   margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0 0 2px 0 rgba(95,95,95,0.8);
+  box-shadow: 0 0 2px 0 rgba(95,95,95,0.8);
+}
+
+#box-contato .container .contato div h3 {
+  line-height: 0;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+}
+
+footer div {
+  width: 1140px;
+  padding-top: 210px;
+  padding-bottom: 25px;
+
+  margin: 0 auto;
+}
+
+footer div ul {
+  width: 223px;
   list-style: none;
-  margin-bottom: 45px;
+  margin: 0 auto 45px;
   text-align: center;
 }
 
-footer ul li {
+footer div ul li {
   float: left;
   padding: 0 5px;
 }
 
-footer p {
+footer div p {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 footer .corp {
-  font-size: 12px !important;
-
+  font-size: 12px;
 }
 
 footer .develop {
   font-size: 10px;
+}
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media all and (max-width: 800px) {
+  header nav {
+    width: 800px;
+  }
+
+  header nav ul {
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+
+  .container {
+    width: 780px;
+    padding: 0 10px;
+  }
+
+  #home img {
+    max-width: 450px;
+  }
+
+  #box-recursos img {
+    max-width: 350px;
+  }
+
+  #box-recursos .container div {
+    padding-left: 0;
+  }
+
+  #box-saiba-mais ul {
+    padding-left: 15px;
+  }
+
+  #box-tecnologias {
+    height: 100%;
+    padding: 45px 10px 65px 10px;
+  }
+
+  #box-tecnologias .container {
+    height: 100%;
+  }
+
+  #box-contato .container .contato {
+    width: 650px;
+    height: 151px;
+    top: -5rem;
+  }
+
+  footer div {
+    width: 800px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  header nav {
+    width: 600px;
+  }
+
+  header nav ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    width: 580px;
+    padding: 0 10px;
+  }
+
+  #home img, #box-recursos img {
+    display: none;
+  }
+
+  #box-tecnologias {
+    height: 100%;
+    padding: 45px 10px 80px 10px;
+  }
+
+  #box-contato .container .contato {
+    width: 550px;
+    height: 151px;
+    top: -5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer div {
+    width: 600px;
+  }
 }
