@@ -106,7 +106,12 @@ footer .develop {
 }
 
 
+#box-saiba-mais ul {
+  list-style: disc;
+  padding-left: 20px;
+}
 
+/* MENU */
 ul.topnav {
   position: absolute;
   right: 0;
@@ -116,7 +121,6 @@ ul.topnav {
   width:100%;
 }
 
-/* Coloca os itens da lista do Menu lado a lado, e flutua os itens para a esquerda */
 ul.topnav li {
   display: inline-block;
   margin-left: 0.5em;
@@ -124,7 +128,6 @@ ul.topnav li {
   float:left;
 }
 
-/* Estilo dos links dentro da lista */
 ul.topnav li a {
   display: block;
   color: #fff;
@@ -135,17 +138,14 @@ ul.topnav li a {
   outline: 0;
 }
 
-/* Altera a cor do link quando passa o mouse em cima*/
 ul.topnav li a:hover {
   color: #6d6d6d;
 }
 
-/* Esconde os itens da lista quando a resolução da tela for pequena */
 ul.topnav li.icon {
   display: none;
 }
 
-/* Quando a tela é menor do que 680 pixels de largura, ocultar todos os itens da lista. Mostra o item da lista que contém o link para abrir e fechar a nav superior (li.icon) */
 @media all and (max-width:680px) {
   ul.topnav {
     background: #3d002f;
@@ -164,7 +164,6 @@ ul.topnav li.icon {
   }
 }
 
-/*A classe responsiva é adicionada à ul superior com o JavaScript quando o usuário clica no ícone. Esta classe faz com que os itens principais do menu fiquem ok em telas menores */
 @media all and (max-width:680px) {
   ul.topnav.responsive {
     position: relative;
@@ -192,9 +191,9 @@ ul.topnav li.icon {
     line-height:30px;
     text-align:center;
   }
-} /*FIM DO MENU RESPONSIVO*/
+}
 
-
+/* FIM MENU */
 
 @media (min-width: 440px) {
   body {
@@ -227,10 +226,9 @@ ul.topnav li.icon {
 
 }
 
-/*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  body {
-    background: #1d8610;
+  h1, h2, h3, footer .contato p {
+    text-align: center;
   }
 }
 
